@@ -1,0 +1,50 @@
+#map 
+            {
+                width:100%;
+                margin:0px;
+                position: absolute;
+                right: 0px;
+                height:970px;
+                border:thin solid #CCC;
+            }
+            
+            .nav-bar {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                border: 1px solid #e7e7e7;
+                background-color: #f3f3f3;
+            }
+
+            .navbar-list {
+              float: left;
+            }
+
+            .navbar-list a {
+              display: block;
+              color: #666;
+              text-align: center;
+              padding: 14px 16px;
+              text-decoration: none;
+            }
+
+            .navbar-list a:hover:not(.active) {
+              background-color: #ddd;
+              color: black;
+            }
+
+            .navbar-list a.active {
+              color: white;
+              background-color: darkgray;
+            }
+
+            .search{
+                float:right;
+                padding-top: 10px;
+                padding-right: 20px;
+            }
+            
+            .rrlZOM-local-context-place-chooser-grid-view{
+                padding:0px;
+            }

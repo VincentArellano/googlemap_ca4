@@ -1,0 +1,120 @@
+{
+    "locations": [
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/08/e59b4d62-0ce8-407f-9bd6-2671b88753df/Alexander-Stadium-Mockup.jpg?width=966",
+            "title": "Alexander Stadium",
+            "description1": "Located in Perry Barr, just outside of the city centre, the stadium will host Athletics and the Games opening and closing ceremonies.",
+            "description2": "The stadium is currently being redeveloped for the Games. The works will see improved pedestrian routes, installation of a changing places toilet and improved accessible seating options.",
+            "lat":52.5272241,
+            "long":-1.9074096
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/08/3fe090bd-7a90-455c-8690-41cbb9d0de32/Arena-Birmingham.jpg?width=966",
+            "title": "Arena Birmingham",
+            "description1": "The venue has step free access and existing facilities such as a changing places toilet.",
+            "description2": "Arena Birmingham will host artistic and rhythmic gymnastics. The venue is in the middle of the city centre with excellent public transport links and close to other attractions.",
+            "lat":52.479717449999995,
+            "long":-1.915034421788946
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/08/b4f53377-3cfa-476b-ae1e-e806616388fc/image001.jpg?width=966",
+            "title": "Cannock Chase Forest",
+            "description1": "Cannock Chase is a large forest which is part of Forestry England.",
+            "description2": "At this venue there are some hard-standing pathways which lead to the outdoor ticketed spectator area which is a predominately grassed area. The trails on the Chase outside of this area may become muddy and wet in bad weather so may not be suitable for those with mobility scooters or those with limited mobility.",
+            "lat":52.7521955,
+            "long":-1.973821430582701
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/04/07/f76f4ec9-d58a-496c-8f1b-351d3a6b4378/Ricoh_RT-13-July.jpg?width=966",
+            "title": "Coventry Stadium & Arena",
+            "description1": "Judo and Wrestling will take place in the arena, which is an indoor venue. Rugby 7s will take place in the stadium, which is outdoor with some cover.",
+            "description2": "Externally there are some changes in level with ramped access round the building. Internally the venue has step free access and will have a range of existing accessible facilities and temporary facilities such as a changing places toilet.",
+            "lat":52.44816495,
+            "long":-1.4971183945757918
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/08/8ca38cef-bfed-444f-8758-ea88d62f8729/Edgbaston-2-.jpg?width=966",
+            "title": "Edgbaston Stadium",
+            "description1": "Close to Birmingham city centre, Edgbaston Cricket Ground is a regular host of both domestic and international cricket.",
+            "description2": "The ground is outdoor with some cover, with accessible routes around the ground. There will be a range of existing and temporary accessible facilities at this venue such as a changing places toilet.",
+            "lat":52.45596485,
+            "long":-1.9038627142168278
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/02/08/b4f53377-3cfa-476b-ae1e-e806616388fc/image001.jpg?width=966",
+            "title": "Lee Valley Velopark",
+            "description1": "The indoor cycling center was one of the venues used for the London 2012 Olympic and Paralympic Games.",
+            "description2": "Located on Queen Elizabeth Olympic Park, the venue has step free access, good public transport links and existing facilities such as a changing places toilet.",
+            "lat":51.550376799999995,
+            "long":-0.015239363509253154
+        }
+    ],
+    "shops": [
+        {
+            "imgUrl": "https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/885/cached.offlinehbpl.hbpl.co.uk/news/WOH/bq-20180919062653728_3.jpg",
+            "title": "B&Q Halesowen",
+            "description1": "We look forward to welcoming you in store at B&Q, your local Halesowen DIY store. Explore our huge range of DIY products, hardware and tools or browse your Halesowen garden centre.",
+            "description2": "Most of our stores also offer a range of services including key cutting, free timber cutting and tool hire.",
+            "lat":52.45768805,
+            "long":-2.0374549190307167
+        },
+        {
+            "imgUrl": "https://www.diamond-heaven.co.uk/upload/blog/full/304_dh%20sign%20dark.jpg",
+            "title": "Diamond Heaven",
+            "description1": "Diamond Heaven are an established UK jewellers with shops in Birmingham’s Jewellery Quarter, London’s Hatton Garden, Glasgow Princes Square, Manchester City Centre and Cardiff St. Davids manufacturing fine diamond jewellery, engagement rings, wedding rings, eternity rings and diamond rings. Our elegant designs accompanied with unparalleled service have earned us our worldwide reputation, with customers purchasing their diamond jewellery through our secure website or our UK showrooms.",
+            "description2": "A jeweller you can trust, A jeweller you can trust, Diamond Heaven offers a wide collection of certified diamond and platinum rings at a fraction of the high street price. Need a last minute gift or a ring for the perfect proposal? Diamond Heaven has a wide range of diamond jewellery in stock and ready to ship straight away, view our ready to order stock collection.",
+            "lat":52.4880712, 
+            "long":-1.9124046
+        },
+        {
+            "imgUrl": "https://media-cdn.tripadvisor.com/media/photo-s/07/c9/33/62/something-for-everyone.jpg",
+            "title": "IKEA",
+            "description1": "Offering a wide range of simple, well-designed and affordable home furnishings solutions all under one roof, because the Wonderful Everyday starts at home, plan your journey to IKEA Birmingham.Cannock Chase is a large forest which is part of Forestry England.",
+            "description2": "Since most IKEA furniture is flat packed, they are quite easy to bring home when you buy from the store.",
+            "lat":52.569625349999995,
+            "long":-2.0154747587799857
+        },
+        {
+            "imgUrl": "https://i2-prod.birminghammail.co.uk/incoming/article16808.ece/ALTERNATES/s615b/D09930CC-C6C9-C1D2-C5BB865EAE0659C5.jpg",
+            "title": "Swan Shopping Centre",
+            "description1": "The Swan Centre has 176,280 sq ft of retail space anchored by an 110,082 sq ft Tesco Extra store providing a wide variety of choice for consumers.",
+            "description2": "This new retail complex benefits from 797 free car parking spaces and a landscaped public piazza creating a relaxed shopping environment. The development includes an enclosed mall with 24 modern and well configured retail units. Many of our units are now occupied by a varied collection of retailers, but a small selection of outlets are currently available.",
+            "lat":52.4626344,
+            "long":-1.8142725569920717
+        }
+    ],
+    "hotels": [
+        {
+            "imgUrl": "https://ak-d.tripcdn.com/images/220w180000014e2ieA94F_Z_550_412_R5_Q70_D.jpg",
+            "title": "Mercure Birmingham West Hotel",
+            "description1": "Mercure Birmingham West Hotel is conveniently situated less than five miles from Birmingham city centre. Being near the M5 and other major transport links, with good access to public transport, this hotel is easily accessible. With 168 bright and comfortable rooms and complimentary Wi-Fi throughout, the hotel is perfect for those visiting Birmingham for business or leisure. Guests are welcome to use our onsite leisure facilities; a heated pool, spa, steam room, and multi-gyms.",
+            "description2": "We have introduced intensified hygiene & prevention measures to ensure your safety. The ALLSAFE label represents our new elevated cleanliness protocols and provides assurance that these standards are being met in this hotel.",
+            "lat":52.51386265,
+            "long":-1.9759166633141625
+        },
+        {
+            "imgUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/26/42/df/park-regis-birmingham.jpg?w=900&h=-1&s=1",
+            "title": "Park Regis Birmingham",
+            "description1": "Park Regis Birmingham opened its doors in April 2016, an amazing transformation of Auchinleck House from a run down office block to one of Birmingham’s most luxurious hotels.",
+            "description2": "The luxury hotel offers a modern and contemporary ambience with a boutique feel offering 253 gorgeous, comfortable guest rooms and suites, home to Shakina Urban Dry Spa for the ultimate beauty indulgence and if you are looking for something a bit different, let’s not forget the fabulous 1565 Outdoor Terrace which has an extensive menu of creative cocktails and serves an Afternoon Tea experience you won’t forget!",
+            "lat": 52.47292315,
+            "long":-1.9169161645907913
+        },
+        {
+            "imgUrl": "https://i.travelapi.com/hotels/6000000/5630000/5622200/5622124/2a6cf352_z.jpg",
+            "title": "Holiday Inn Express Birmingham Snow Hill",
+            "description1": "Featuring a restaurant and a meeting room, Holiday Inn Express Birmingham - Snow Hill offers accommodation within 1 km from Bullring & Grand Central Mall. Situated in the very heart of Birmingham, the venue gives quick access to the Georgian baroque Birmingham Cathedral.",
+            "description2": "The hotel is located in a financial area, close to The Coroners Court Courthouse. A 15-minute walk will take guests to AIR Nightclub. Jewellery Quarter is only a short drive away.",
+            "lat":52.48482035,
+            "long":-1.8983999636309519
+        },
+        {
+            "imgUrl": "https://resources.cwg-qbr.pulselive.com/photo-resources/2022/04/07/f76f4ec9-d58a-496c-8f1b-351d3a6b4378/Ricoh_RT-13-July.jpg?width=966",
+            "title": "Aloft Birmingham Eastside",
+            "description1": "Aloft Birmingham Eastside has a restaurant, fitness center, a bar and shared lounge in Birmingham. Among the facilities at this property are a 24-hour front desk and room service, along with free WiFi throughout the property. The property has evening entertainment and a concierge service.",
+            "description2": "At the hotel, rooms include a desk. Rooms have air conditioning and a flat-screen TV, and certain accommodations at Aloft Birmingham Eastside have a safety deposit box. At the accommodation all rooms are equipped with bed linen and towels.",
+            "lat":52.485851,
+            "long":-1.8852174
+        }
+    ]
+}

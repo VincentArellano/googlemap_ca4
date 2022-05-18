@@ -1,0 +1,150 @@
+#map_container {
+    width: 80%;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    height: 970px;
+    border: thin solid #CCC;
+}
+
+#map {
+    width: 100%;
+    margin: 0px;
+    position: absolute;
+    right: 0px;
+    height: 970px;
+    border: thin solid #CCC;
+}
+
+#btn_reset {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 70px;
+    margin-top: 13px;
+    z-index: 99;
+}
+
+#btn_position {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 150px;
+    margin-top: 13px;
+    z-index: 99;
+}
+
+#control-panel {
+    background-color: #fff;
+    margin: 50px;
+}
+
+
+.directions {
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+    border-top: 1px solid #e7e7e7;
+}
+
+#filter {
+    padding-top: 20px;
+    padding-left: 40px;
+    float: left;
+    width: 20%;
+    border-top: 1px solid #e7e7e7;
+
+}
+
+.radio {
+    padding: 10px;
+    margin-left: 15px;
+    width: 150px;
+    border-radius: 25px;
+}
+
+.radio.active {
+    background-color: #666;
+    color: #ddd;
+}
+
+.filter_one {
+    margin: 10px;
+    display: inline-block;
+}
+
+
+.material-icons {
+    padding: 10px;
+
+}
+
+.direction_header {
+    padding-left: 15px;
+}
+
+.direction_button {
+    margin: 0px 5px;
+    border-radius: 10px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #e7e7e7;
+    background-color: #f3f3f3;
+}
+
+.navbar-list {
+    float: left;
+}
+
+.navbar-list a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-list a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+.navbar-list a.active {
+    color: white;
+    background-color: darkgray;
+}
+
+.search {
+    float: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+#container {
+    border-radius: 40px;
+    height: 500px;
+    width: 580px;
+}
+
+.size {
+    border-radius: 40px;
+    height: 250px;
+    width: 580px;
+}
+
+h3 {
+    padding-top: 15px;
+    text-align: center;
+}
+
+h6 {
+    padding-top: 10px;;
+    text-align: center;
+}

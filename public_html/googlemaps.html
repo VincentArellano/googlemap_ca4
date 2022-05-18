@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course notes example code</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css" type="text/css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script
+        src=https://maps.googleapis.com/maps/api/js?key=AIzaSyB_Agwc-hCfmOMaaVyiZIbrsNgwAVFEgPg&libraries=places></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link href=https://fonts.googleapis.com/icon?family=Material+Icons rel=stylesheet>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <ul class="nav-bar">
+            <li class="navbar-list"><a class="active" href="googlemaps.html">Home</a></li>
+            <li class="navbar-list"><a href="localContext.html">Local Context</a></li>
+
+            <li class="search"><input type="search" placeholder="Search for a place" value="" id="search"><input
+                    type="button" value="Search" onclick="displaySearchMap()"></li>
+        </ul>
+    </nav>
+    <div id=control-panel>
+        <div class="direction_header">
+            <button class="direction_button"><i class="material-icons"
+                    onclick="calculateRoute('DRIVING')">directions_car</i></button>
+            <button class="direction_button"><i class=material-icons
+                    onclick="calculateRoute('TRANSIT')">directions_bus</i></button>
+            <button class="direction_button"><i class=material-icons
+                    onclick="calculateRoute('BICYCLING')">directions_bike</i></button>
+            <button class="direction_button"><i class=material-icons
+                    onclick="calculateRoute('WALKING')">directions_walk</i></button>
+
+
+        </div>
+
+        <div>
+            <details id=directions>
+                <p>Total Distance to Travel : <span id="total"></span></p>
+                <summary class="directions" id=transport-mode>Driving</summary>
+
+            </details>
+        </div>
+    </div>
+    <div class="search">
+        <div class="p-3 rounded-0">
+            <div id=control-panel class="">
+                <div class="form-label text-start pt-4">Start:</div>
+                <input class="form-control" id=start type=text>
+
+                <div class="form-label text-start pt-4">Number of midpoint:</div>
+                <input class="form-control" id="count" type=number max="10" min="0" onchange="generateMidPointFields()"
+                    value="0">
+                <div id="midpointcontainer"></div>
+                <div class="form-label text-start pt-4">End:</div>
+                <input class="form-control" id=end type=text>
+
+
+
+                <input class="btn btn-light mt-3 w-100" type=button onclick=calculateRoute() id=submit value=Submit>
+            </div>
+        </div>
+        <div id="map_container">
+            <div id=map></div>
+            <button class="btn btn-success" id="btn_reset" onclick="reset()">Reset</button>
+            <button class="btn btn-success" id="btn_position" onclick="goCurrentLocation();">Where Am I ?</button>
+        </div>
+
+        <!--if the file has been formatted you must fix the filter code below by taking away the spaces from 'placeType = "cafe"' to 'placeType="cafe"'. Do for each one.-->
+        <div id="filter">
+            <div class="filter_one">
+                <button class="radio" id="tourist_attraction" onclick="displayType(this, this, 'tourist_attraction')">Tourist Attraction</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="airport" onclick="displayType(this, 'airport')">Airport</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="cafe" onclick="displayType(this, 'cafe')">Cafe</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="park" onclick="displayType(this, 'park')">Park</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="bank" onclick="displayType(this, 'park')">Bank</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="restaurant" onclick="displayType(this, 'restaurant')">Restaurant</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="stadium" onclick="displayType(this, 'stadium')">Stadium</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="hospital" onclick="displayType(this, 'hospital')">Hospital</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="church" onclick="displayType(this, 'church')">Church</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="store" onclick="displayType(this, 'store')">Store</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="gym" onclick="displayType(this, 'gym')">Gym</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="movie_theater" onclick="displayType(this, 'movie_theater')">Movie Theater</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="museum" onclick="displayType(this, 'museum')">Museum</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="parking" onclick="displayType(this, 'parking')">Parking</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="police" onclick="displayType(this, 'police')">Police</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="supermarket" onclick="displayType(this, 'supermarket')">Supermarket</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="subway_station" onclick="displayType(this, 'subway_station')">Subway Station</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="clothing_store" onclick="displayType(this, 'clothing_store')">Clothing Store</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="car_rental" onclick="displayType(this, 'car_rental')">Car Rental</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="bus_station" onclick="displayType(this, 'bus_station')">Bus Station</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="casino" onclick="displayType(this, 'casino')">Casino</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="drugstore" onclick="displayType(this, 'drugstore')">Drugstore</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="bar" onclick="displayType(this, 'bar')">Bar</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="bakery" onclick="displayType(this, 'bakery')">Bakery</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="liquor_store" onclick="displayType(this, 'liquor_store')">Liquor Store</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="library" onclick="displayType(this, 'library')">Library</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="pharmacy" onclick="displayType(this, 'pharmacy')">Pharmacy</button>
+            </div>
+            <div class="filter_one">
+                <button class="radio" id="shopping_mall" onclick="displayType(this, 'pharmacy')">Shopping Mall</button>
+            </div>
+        </div>
+</body>
+
+</html>
